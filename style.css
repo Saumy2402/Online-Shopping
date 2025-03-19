@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 header {
-    display: inline-block;
+    display: flex;
     background-color: #ffffff;
     height: 80px;
     justify-content: space-between;
@@ -18,13 +18,15 @@ header {
 }
 .logo_container {
     margin-left: 4%;
+    width: 10%;
 }
 .action_bar {
     margin-right: 4%;
 }
 .nav_bar {
     display: flex;
-    min-width: 500px;
+    margin-top: 15px;
+    min-width: 700px;
     justify-content: space-evenly;
 }
 .nav_bar a {
@@ -48,8 +50,8 @@ header {
 
 .search_bar {
     height: 40px;
-    min-width: 200px;
-    width: 30%;
+    min-width: 320px;
+    width: 10%;
     display: flex;
     align-items: center;
 }
@@ -74,7 +76,7 @@ header {
 
 .action_bar {
     display: flex;
-    min-width: 200px;
+    min-width: 300px;
     justify-content: space-evenly;
 }
 
