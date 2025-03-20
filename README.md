@@ -1,2 +1,1 @@
-# Project---Mintra
- 
+# Online clothing website
