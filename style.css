@@ -96,6 +96,7 @@ header {
 .banner_image {
    width: 100%;
     margin-right: 20px;
+    margin-left:0px;
 }
 
 .category_heading {
