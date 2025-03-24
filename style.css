@@ -91,12 +91,11 @@ header {
 
 
 .banner_container {
-    margin: 40px;
 }
 .banner_image {
    width: 100%;
-    margin-right: 20px;
-    margin-left:0px;
+    margin: 20px 30px 20px 0px;
+    
 }
 
 .category_heading {
