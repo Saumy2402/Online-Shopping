@@ -116,14 +116,14 @@ header {
     width: 250px;
 }
 
-.footer_container {
+/* .footer_container {
     padding: 30px 0px 40px 0px;
     background: #FAFBFC;
     display: flex;
     justify-content: space-evenly;
-}
+} */
 
-.footer_column {
+/* .footer_column {
     display: flex;
     flex-direction: column;
 }
@@ -139,15 +139,11 @@ header {
     font-size: 15px;
     text-decoration: none;
     padding-bottom: 5px;
-}
+} */
 
-.copyright{
+.footer{
     color: #94969f;
-    text-align: end;
+    text-align: center;
     padding: 15px;
 } 
-.credits{
-    color: #94969f;
-    text-align: end;
-    padding: 15px;
-} 
+
