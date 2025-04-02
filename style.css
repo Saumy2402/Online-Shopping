@@ -141,7 +141,12 @@ header {
     padding-bottom: 5px;
 }
 
-.copyright .credits{
+.copyright{
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+} 
+.credits{
     color: #94969f;
     text-align: end;
     padding: 15px;
