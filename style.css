@@ -6,14 +6,26 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "menu main"
+      "footer footer";
+    grid-template-columns: 1fr 5fr;
+    gap: 5px;
+}
+
 header {
     display: flex;
+    grid-area: header;
     background-color: #ffffff;
     height: 80px;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #b6b1b1;
 }
+
 .myntra_home {
     height: 45px;
 }
@@ -21,37 +33,10 @@ header {
     margin-left: 2%;
     width: 10%;
 }
-.action_bar {
-    margin-right: 4%;
-}
-.nav_bar {
-    display: flex;
-    margin-top: 15px;
-    min-width: 700px;
-    justify-content: space-evenly;
-}
-.nav_bar a {
-    font-size: 14px;
-    letter-spacing: .3px;
-    color: #282c3f;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 28px 0;
-    border-bottom: 5px solid #ffffff;
-}
-.nav_bar a:hover {
-    border-bottom: 4px solid #f54e77;
-}
-
-.nav_bar a sup {
-    color: #ff3f6c;
-    font-size: 10px;
-}
 
 .search_bar {
     height: 40px;
-    min-width: 320px;
+    min-width: 400px;
     width: 10%;
     display: flex;
     align-items: center;
@@ -78,7 +63,12 @@ header {
     outline:none;
 }
 
-.action_bar {
+/* .action_bar {
+    margin-right: 4%;
+} */
+
+
+/* .action_bar {
     display: flex;
     min-width: 300px;
     justify-content: space-evenly;
@@ -88,6 +78,58 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+
+.header_bar {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+.header_bar a {
+    font-size: 18px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+.header_bar a:hover {
+    background-color: rgb(232, 52, 181);
+}
+
+.menu{
+    grid-area: menu;
+    border-right: lightgrey 3px solid;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+.nav_bar a {
+    font-size: 18px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 28px 30px;
+    text-decoration: none;
+    border-bottom: 5px solid #ffffff;
+}
+.nav_bar a:hover {
+    background-color: rgb(232, 52, 181);
+}
+
+.nav_bar a sup {
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+main{
+    grid-area: main;
 }
 
 .banner_image {
@@ -141,7 +183,8 @@ header {
     padding-bottom: 5px;
 } */
 
-.footer{
+footer{
+    grid-area: footer;
     color: #94969f;
     text-align: center;
     padding: 15px;
