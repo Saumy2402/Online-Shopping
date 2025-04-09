@@ -100,7 +100,7 @@ header {
 
 .menu{
     grid-area: menu;
-    border-right: lightgrey 3px solid;
+    border-right: lightgrey 1px solid;
 }
 
 .nav_bar {
@@ -184,6 +184,7 @@ main{
 } */
 
 footer{
+    border-top: 1px solid #b6b1b1;
     grid-area: footer;
     color: #94969f;
     text-align: center;
