@@ -1,0 +1,86 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* A light blue for kids' section */
+    color: #555;
+}
+
+header {
+    background-color: #4dd0e1; /* A brighter blue for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main.kids-collection {
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 30px;
+}
+
+.category h2 {
+    border-bottom: 2px solid #26c6da; /* A darker blue border */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #b2ebf2; /* A lighter blue border */
+    padding: 15px;
+    border-radius: 8px; /* Slightly more rounded corners */
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.1em; /* Slightly larger font */
+}
+
+.product-item .price {
+    color: #ff8a65; /* An orange color for the price */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-item button {
+    background-color: #ff8a65; /* An orange button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px; /* Matching rounded corners */
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.product-item button:hover {
+    background-color: #f4511e; /* A darker orange on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4dd0e1; /* Matching footer color */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
