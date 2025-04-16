@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -82,3 +82,87 @@ footer {
     width: 100%;
 }
 
+ */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #444;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #d8bfd8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main.women-collection {
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 30px;
+}
+
+.category h2 {
+    border-bottom: 2px solid #e0b0e0;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 250px;
+    height: 320px;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.product-item .price {
+    color: pink;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-item button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #f08080;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d8bfd8;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
