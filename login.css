@@ -1,13 +1,13 @@
 /* Login Page Styles */
 body { 
     font-family: Arial, sans-serif;
-    background-color: blue;
+    background-color: #2396A6;
     margin: 20px;
-/*    background-image: url(image/background_img.png); 
-/*     background-repeat: no-repeat;  */ */
+    
+    /* background-repeat: no-repeat;  */
 } 
 
-.container{
+.container {
     margin-left: auto;
     margin-right: auto;
     max-width: fit-content;
@@ -58,3 +58,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
