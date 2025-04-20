@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: blue;
     margin: 20px;
-   background-image: url(image/background_img.png); 
-/*     background-repeat: no-repeat;  */
+/*    background-image: url(image/background_img.png); 
+/*     background-repeat: no-repeat;  */ */
 } 
 
 .container{
