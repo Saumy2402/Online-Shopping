@@ -38,8 +38,9 @@ header {
 
 .search_bar {
     height: 40px;
-    min-width: 400px;
-    width: 10%;
+    flex: 1;
+    max-width: 600px;
+    margin: 0 20px;
     display: flex;
     align-items: center;
     outline: 2px solid rgb(175, 168, 168);
@@ -158,6 +159,27 @@ main{
 
 .sale_item {
     width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        grid-template-areas:
+            "header"
+            "menu"
+            "main"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+    .nav_bar {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: center;
+    }
+    .search_bar {
+        min-width: 200px;
+        width: 60%;
+    }
 }
 
 /* .footer_container {
