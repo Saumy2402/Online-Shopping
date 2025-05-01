@@ -4,6 +4,7 @@ footer{
     color: #94969f;
     text-align: center;
     padding: 15px;
+    font-size: 17px;
 } 
 
 
@@ -70,6 +71,21 @@ footer{
 }
 
 .popular-searches a {
+    text-decoration: none;
+    color: #777;
+    margin-right: 5px;
+}
+.popular-searches p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.popular-searches a {
+    text-decoration: none;
+    color: #777;
+    margin-right: 5px;
+}
+.credits{
     text-decoration: none;
     color: #777;
     margin-right: 5px;
