@@ -2,12 +2,12 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* A light blue/lavender for home & living */
+    background-color: #f0f8ff; 
     color: #444;
 }
 
 header {
-    background-color: #87ceeb; /* A brighter blue for the header */
+    background-color: #87ceeb;
     color: white;
     padding: 20px;
     text-align: center;
@@ -22,7 +22,7 @@ main.home-and-living-collection {
 }
 
 .category h2 {
-    border-bottom: 2px solid #6495ed; /* A darker blue border */
+    border-bottom: 2px solid #6495ed; 
     padding-bottom: 10px;
     margin-bottom: 15px;
 }
@@ -35,7 +35,7 @@ main.home-and-living-collection {
 
 .product-item {
     background-color: white;
-    border: 1px solid #add8e6; /* A lighter blue border */
+    border: 1px solid #add8e6; 
     padding: 15px;
     border-radius: 5px;
     text-align: center;
@@ -54,13 +54,13 @@ main.home-and-living-collection {
 }
 
 .product-item .price {
-    color: #2e8b57; /* A green color for the price */
+    color: #2e8b57; 
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .product-item button {
-    background-color: #2e8b57; /* A green button */
+    background-color: #2e8b57; 
     color: white;
     border: none;
     padding: 10px 15px;
@@ -70,13 +70,13 @@ main.home-and-living-collection {
 }
 
 .product-item button:hover {
-    background-color: #006400; /* A darker green on hover */
+    background-color: #006400;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #87ceeb; /* Matching footer color */
+    background-color: #87ceeb; 
     color: white;
     bottom: 0;
     width: 100%;
